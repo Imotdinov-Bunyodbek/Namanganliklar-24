@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./css/index.css">
     <title>Namanganliklar 24</title>
 </head>
@@ -134,7 +135,7 @@
         <div class="site-article-box">
             <article class="site-article">
                 <h3 class="article-title">Хотите быть в курсе свежих новостей?  Включите уведомления!</h3>
-                <a class="article-link" href="#">Включит</a>
+                <button class="article-link" type="button">Включит</button>
             </article>
         </div>
         <section class="world-news">
@@ -214,6 +215,13 @@
                 </div>
             </div>
         </section>
+        <div class="modal">
+            <div class="modal-box">
+                <h3 class="modal-box-title">Хотите быть в курсе свежих новостей?  Включите уведомления!</h3>
+                <a class="modal-box-link" href="#">Включит</a>
+                <a class="exit-link" href="#"><i class='bx bx-x js-exit-icon'></i></a>
+            </div>
+        </div>
     </main>
     <footer class="site-footer">
         <div class="footer-container">
@@ -247,5 +255,6 @@
             </div>
         </div>
     </footer>
+    <script src="./js/index.js"></script>
 </body>
 </html>
